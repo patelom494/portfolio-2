@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(27, 27, 58);
+}
+
+h2 {
+    color: skyblue;
+    text-align: center;
+}
+
+p {
+    color: white;
+    opacity: 0.9;
+}
+
+button {
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    padding: 10px;
+    background: transparent;
+    color: skyblue;
+    margin: 20px 5px;
+}
+
+.hover {
+    background-color: skyblue;
+    color: rgb(27, 27, 58);
+}
+
+.top {
+    text-align: center;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.-card {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(16, 16, 80);
+}
+
+.-card i {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.-card h4,
+.-card p {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    color: white;
+}
+
+.-card a {
+    width: 100%;
+    height: 10%;
+    text-decoration: none;
+    padding: 18px;
+}
+
+/*this is header*/
+
+header {
+    padding: 10px;
+}
+
+header h1,
+header p {
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+header .btn {
+    display: flex;
+    justify-content: center;
+}
+
+header button:hover {
+    background-color: skyblue;
+    color: rgb(27, 27, 58);
+}
+
+
+/*this is img*/
+.centerimg {
+    display: flex;
+    justify-content: center;
+}
+
+.centerimg img {
+    width: 300px;
+    height: 400px;
+    border-radius: 150px 150px 0 0;
+    margin: 50px;
+}
+
+/*this is contant*/
+.contant-txt {
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* thi is right side */
+.contant-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-img {
+    background-color: skyblue;
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+}
+
+.right-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    transform: rotate(10deg);
+}
+
+/* this is left side  */
+
+.contant-left {
+    width: 50%;
+}
+
+.left-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.left-txt {
+    padding: 20px;
+}
+
+/*this is skill*/
+
+#skill {
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-box {
+    padding: 20px;
+    background-color: rgb(16, 16, 80);
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-txt {
+    margin: 20px;
+}
+
+.skill-txt h4,
+.skill-txt p {
+    margin: 5px;
+    color: white;
+}
+
+.skill-box h2 {
+    margin: 20px;
+}
+
+/*this is main*/
+#main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.main-card {
+    background-color: rgb(21, 21, 80);
+    margin: 10px 20px;
+    border: 1px solid skyblue;
+    border-radius: 0 0 30px 30px;
+    width: 300px;
+    height: fit-content;
+}
+
+.service-name p {
+    background-color: skyblue;
+    line-height: 50px;
+    border-radius: 0 0 30px 30px;
+    text-align: center;
+    color: rgb(21, 21, 80);
+}
+
+.main-card p {
+    padding: 5px 30px;
+}
+
+/* this is card */
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(33, 33, 88);
+}
+
+.card-img {
+    width: 300px;
+    height: 210px;
+}
+
+.card-img img {
+    width: 280px;
+    height: 190px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.card-name h4 {
+    margin: 10px;
+    color: white;
+    height: 60px;
+}
+
+.card-btn button {
+    padding: 10px;
+    margin: 5px;
+}
+
+/*this is rewu*/
+.client {
+    width: 40%;
+    background-color: rgb(33, 33, 88);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.profile {
+    margin: 0 auto 20px auto;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 5px solid rgb(63, 63, 158);
+}
+
+.dot {
+    text-align: center;
+    font-size: 50px;
+}
+
+/*this is contact*/
+.cnt-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cnt-r {
+    width: 50%;
+}
+
+.cnt-r .-card{
+    margin: 20px auto;
+}
+
+.cnt-l {
+    width: 50%;
+}
+
+.cnt-l input{
+    background: transparent;
+    border: 1px solid rgb(63, 63, 158);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    width: 250px;
+}
+
+/*this is footer*/
+footer{
+    background-color: skyblue;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h1{
+    margin: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    margin: 20px 10px;
+}
+
+.icon{
+    font-size: 30px;
+    margin: 20px 5px;
+}
+
+
+/*this is navbar*/
+nav {
+    width: fit-content;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 50px;
+    position: sticky;
+    bottom: 20px;
+}
+
+nav a {
+    color: rgba(255, 255, 255, 0.808);
+    padding: 15px 15px;
+}
+
+nav a:hover {
+    color: black;
+    background-color: skyblue;
+    border-radius: 50%;
+}
+
+/*this style for mobile screen*/
+
+@media screen and (max-width:450px) {
+    .centerimg img {
+        width: 180px;
+        height: 300px;
+        border-radius: 90px 90px 0 0;
+    }
+
+    .contant-left,
+    .contant-right {
+        width: 100%;
+    }
+
+    .right-img {
+        border-radius: 20px;
+        width: 180px;
+        height: 180px;
+    }
+
+    .right-img img {
+        width: 180px;
+        height: 180px;
+        border-radius: 20px;
+    }
+
+    .card {
+        width: 250px;
+        height: 300px;
+        margin: 10px;
+        border-radius: 20px;
+        background-color: rgb(33, 33, 88);
+    }
+
+    .card-img {
+        width: 250px;
+        height: 170px;
+    }
+
+    .card-img img {
+        width: 230px;
+        height: 150px;
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    .client {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .cnt-r, .cnt-l {
+        width: 100%;
+    }
+}
