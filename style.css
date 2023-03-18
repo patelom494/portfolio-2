@@ -309,6 +309,7 @@ header button:hover {
 .cnt-l input{
     background: transparent;
     border: 1px solid rgb(63, 63, 158);
+    color: white;
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
